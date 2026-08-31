@@ -1,0 +1,108 @@
+[
+  {
+    "run_id": "resnet50_chest_xray_1788196431",
+    "timestamp": "2026-08-31 22:43:51",
+    "params": {
+      "task": "chest_xray",
+      "architecture": "resnet50",
+      "epochs": 6,
+      "learning_rate": 0.0001,
+      "batch_size": 16,
+      "optimizer": "AdamW",
+      "scheduler": "CosineAnnealingLR"
+    },
+    "metrics": {
+      "best_val_acc": 1.0,
+      "final_train_loss": 0.4184,
+      "final_val_loss": 0.309,
+      "training_duration_sec": 393.2
+    },
+    "history": {
+      "train_loss": [
+        1.3564,
+        1.2987,
+        1.1096,
+        0.7613,
+        0.5048,
+        0.4184
+      ],
+      "val_loss": [
+        1.3872,
+        1.3621,
+        1.1801,
+        0.5479,
+        0.3651,
+        0.309
+      ],
+      "train_acc": [
+        0.3393,
+        0.5387,
+        0.7292,
+        0.9167,
+        0.9583,
+        0.9732
+      ],
+      "val_acc": [
+        0.1667,
+        0.4444,
+        0.75,
+        0.9444,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  {
+    "run_id": "efficientnet_b0_skin_lesion_1788197268",
+    "timestamp": "2026-08-31 22:57:48",
+    "params": {
+      "task": "skin_lesion",
+      "architecture": "efficientnet_b0",
+      "epochs": 6,
+      "learning_rate": 0.0001,
+      "batch_size": 16,
+      "optimizer": "AdamW",
+      "scheduler": "CosineAnnealingLR"
+    },
+    "metrics": {
+      "best_val_acc": 0.9778,
+      "final_train_loss": 0.675,
+      "final_val_loss": 0.6086,
+      "training_duration_sec": 167.9
+    },
+    "history": {
+      "train_loss": [
+        1.1291,
+        1.0725,
+        0.9769,
+        0.8297,
+        0.7025,
+        0.675
+      ],
+      "val_loss": [
+        1.1249,
+        1.0601,
+        0.8573,
+        0.7169,
+        0.6282,
+        0.6086
+      ],
+      "train_acc": [
+        0.2762,
+        0.3905,
+        0.5714,
+        0.8714,
+        0.9048,
+        0.919
+      ],
+      "val_acc": [
+        0.3778,
+        0.4444,
+        0.8889,
+        0.9556,
+        0.9556,
+        0.9778
+      ]
+    }
+  }
+]
