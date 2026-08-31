@@ -11,15 +11,23 @@ MediScan is an end-to-end deep learning system engineered to classify medical im
 
 ---
 
-## 📸 Application Screenshots & Live Visual Previews
+## 📸 Real Application Screenshots & Visual Previews
 
-### 1. Interactive Classification Dashboard & Confidence Gauge
-![MediScan Dashboard Preview](assets/dashboard_preview.png)
-*Figure 1: Single image inference view showing class prediction, confidence gauge (97.4%), and class probability distribution.*
+### 1. 🏠 Home & Project Overview Dashboard
+![MediScan Home Overview](assets/real_home_overview.png)
+*Figure 1: MediScan home interface displaying target domain metrics, active model architecture, validation accuracy, and system pipeline flow.*
 
-### 2. Grad-CAM Model Explainability & Heatmap Overlay
-![Grad-CAM Explainability Preview](assets/gradcam_preview.png)
-*Figure 2: Grad-CAM explainability panel displaying original image, raw feature activation heatmap, and transparent overlay.*
+### 2. 🧠 Grad-CAM Explainable AI Heatmap & Overlay
+![Grad-CAM Explainability Preview](assets/real_gradcam_explainability.png)
+*Figure 2: Grad-CAM model explainability panel displaying original input image, raw spatial activation heatmap, and transparent colormap overlay ($0.55$ alpha).*
+
+### 3. 🔬 Single Image Prediction & Upload Interface
+![Single Image Prediction Interface](assets/real_single_image_prediction.png)
+*Figure 3: Interactive image upload interface supporting drag-and-drop medical image uploads and instant sample selection.*
+
+### 4. 📊 Multi-Class Evaluation Metrics (Confusion Matrix & ROC Curves)
+![Model Evaluation Metrics](assets/real_evaluation_metrics.png)
+*Figure 4: Real-time model evaluation displaying per-class confusion matrix counts and multi-class One-vs-Rest ROC-AUC performance curves.*
 
 ---
 
@@ -97,7 +105,7 @@ mediscan/
 ├── MODEL_CARD.md         # Detailed model card specifications & ethics
 ├── README.md             # Project documentation & live web app link
 ├── requirements.txt      # Dependency manifest for local & cloud deployment
-└── assets/               # Screenshots & UI preview assets
+└── assets/               # Real application screenshots & preview assets
 ```
 
 ---
